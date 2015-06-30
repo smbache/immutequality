@@ -8,6 +8,11 @@ the remainder of the defining scope.
 
 ## Example
 ```{r}
+
+library(immutequality)
+## or
+# import::from(immutequality, "=") 
+
 x = 10
 
 print(x)
