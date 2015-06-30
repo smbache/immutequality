@@ -10,7 +10,7 @@ the remainder of the defining scope.
 ```{r}
 
 library(immutequality)
-## or
+## or, more silently and explicitely:
 # import::from(immutequality, "=") 
 
 x = 10
