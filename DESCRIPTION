@@ -1,0 +1,12 @@
+Package: immutequality
+Type: Package
+Title: Use Equality Assignment for Immutability
+Version: 0.1
+Author: Stefan Milton Bache
+Maintainer: Stefan Milton Bache <stefan@stefanbache.dk>
+Description: When `=` is used for assignment immutability is emulated by
+  assigning an active binding to the symbol that will raise an error if
+  reuse of the symbol is attempted. This allows the use of `=` as a promise
+  that the value will not change within it's scope.
+License: MIT + file LICENSE
+LazyData: TRUE
